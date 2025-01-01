@@ -10,6 +10,7 @@ import HouseToPic from '@/images/logos/housetopic.svg'
 import AudioAesthetics from '@/images/logos/audioAesthetics.svg'
 import SaviCandle from '@/images/logos/savicandle.svg'
 import e from '@/images/logos/image.png'
+import g from '@/images/logos/g.png'
 
 import EVC from '@/images/logos/evc.svg'
 
@@ -69,7 +70,7 @@ const projects = [
       href: 'https://git-finder1103.netlify.app/',
       label: 'easy-buy-g.netlify.app',
     },
-
+    logo: g,
   },
   
 ]
