@@ -11,7 +11,10 @@ import Kpyouth from '@/images/logos/Kpyouth.svg'
 import Eduonix from '@/images/logos/eduonix.svg'
 import InternsPakistan from '@/images/logos/InternsPakistan.svg'
 import TheMentorsPakistan from '@/images/logos/thementorspakistan.svg'
-import TechMentors from '@/images/logos/techmentors.svg'
+import vibeSync from '@/images/logos/vibeSync.jpeg'
+import gcd from '@/images/logos/gcd.png'
+import sg from '@/images/logos/sg.jpeg'
+
 import { getAllArticles } from '@/lib/articles'
 import { formatDate } from '@/lib/formatDate'
 
@@ -164,29 +167,20 @@ function Certificate({ certificate }) {
 function Certificates() {
   let certificates = [
     {
-      company: 'React.js Development',
-      title: 'TECH MENTORS',
-      logo: TechMentors,
+      company: 'VibeSync',
+      title: 'React.js Development',
+      logo: vibeSync,
       start: '2024',
     },
+
     {
-      company: 'Software Testing',
-      title: 'EDUONIX',
-      logo: Eduonix,
-      start: '2022',
-    },
-    {
-      company: 'NodeJS Development',
-      title: 'KPITB',
+      company: 'Skill Mingle',
+      title: 'MERN-Stack Development',
       logo: Kpitb,
-      start: '2021',
+      start: '2024',
     },
-    {
-      company: 'WordPress Development',
-      title: 'KPYOUTH',
-      logo: Kpyouth,
-      start: '2018',
-    },
+
+
   ]
 
   return (
@@ -207,35 +201,34 @@ function Certificates() {
 function Resume() {
   let resume = [
     {
-      company: 'Tech Mentors',
+      company: 'VibeSync',
       title: 'Front-end Developer',
-      logo: TechMentors,
-      start: '2022',
+      logo: vibeSync,
+      start: 'sept 2024',
       end: {
-        label: 'Present',
+        label: ' oct 2024',
         dateTime: new Date().getFullYear().toString(),
       },
     },
     {
-      company: 'KPITB',
-      title: 'Web Developer',
+      company: 'Skill Mingle ',
+      title: 'Full stack Developer',
       logo: Kpitb,
-      start: '2021',
-      end: '2022',
+      start: 'oct 2024',
+      end: 'dec 20224',
     },
     {
-      company: 'Interns Pakistan',
-      title: 'Front-end Developer',
-      logo: InternsPakistan,
-      start: '2020',
-      end: '2021',
-    },
-    {
-      company: 'The Mentors, Pakistan',
-      title: 'Web Developer',
-      logo: TheMentorsPakistan,
-      start: '2017',
-      end: '2020',
+      company: 'GDG NIT Mizorm',
+      title: 'metor to the coding club',
+      logo: gcd,
+      start: 'Nov 2024',
+      end: ' Present',
+    },{
+      company: 'Software giant  ',
+      title: 'freelancer',
+      logo: sg,
+      start: 'dec 2024',
+      end: 'Present',
     },
   ]
 
@@ -251,14 +244,7 @@ function Resume() {
             <Role key={index} role={role} />
           ))}
         </ol>
-        {/* <Button
-          href="../pdf/MuhammadEssaResume.pdf"
-          variant="secondary"
-          className="group mt-6 w-full"
-        >
-          Download CV
-          <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
-        </Button> */}
+
       </div>
     </>
   )
@@ -272,27 +258,26 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Hi there, I'm Muhammad
+            Hi there, I'm VIKASH
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m a front-end developer from Pakistan. I love learning how to
-            build fast, accessible and scalable web applications. I always keep
-            an eye on the JavaScript ecosystem for what comes next and I'm
-            excited to continue.
+            A third-year Computer Science student at NIT Mizoram. I specialize in Full-Stack Development (MERN Stack) and have a strong interest in Machine Learning, AI, and DevOps technologies like Docker and Kubernetes.
+
+            I enjoy building scalable and user-friendly applications and am passionate about problem-solving, open-source contributions, and exploring new tech. I’m always eager to collaborate and learn in the ever-evolving world of technology.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
-              href="https://www.linkedin.com/in/imuhammadessa/"
+              href="https://www.linkedin.com/in/vikash-kumar-kharwar-142157265/"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
             <SocialLink
-              href="https://github.com/iMuhammadessa"
+              href="https://github.com/VIKASH1596KUMARKHARWAR"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
             <SocialLink
-              href="https://twitter.com/imuhammadessa"
+              href="https://x.com/VikashK60383009"
               aria-label="Follow on X"
               icon={XIcon}
             />

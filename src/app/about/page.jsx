@@ -35,7 +35,7 @@ function MailIcon(props) {
 
 export const metadata = {
   title: 'About',
-  description: `I'm Muhammad, a front-end developer from Pakistan. Although I explored various fields like video editing and graphic design, none truly resonated with me. My journey into front-end development began in 2020 when I discovered HTML and CSS, and I haven't looked back since. I'm always staying up-to-date with the JavaScript ecosystem, excited to see what comes next.`,
+  description: `I'm VIKASH KUMAR KHARWAR, a full-stack developer and student at NIT MIZORAM,btech 3rd year.`,
 }
 
 export default function About() {
@@ -53,56 +53,56 @@ export default function About() {
           </div>
         </div>
         <div className="lg:order-first lg:row-span-2">
-        <h1>Building Scalable Solutions, From Concept to Code.</h1>
+          <h1>Building Scalable Solutions, From Concept to Code.</h1>
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-          Crafting Seamless Digital Experiences, From Frontend to Backend.          </h1>
+            Crafting Seamless Digital Experiences, From Frontend to Backend.          </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
-  <p>
-    I'm Vikash Kumar Kharwar, a passionate developer and AI enthusiast from India. My journey into the world of technology began with a curiosity for problem-solving and has since evolved into a deep interest in software development, machine learning, and robotics. I’m currently pursuing a B.Tech in Computer Science and Engineering at NIT Mizoram.
-  </p>
-  <p>
-    Over the years, I’ve explored and mastered a range of technologies. Starting with basic web development using HTML and CSS, I progressed to full-stack development, leveraging the MERN stack to build impactful applications. My portfolio includes projects like a Student Result Management System, full-stack eCommerce platforms, and AI-driven image enhancement tools.
-  </p>
-  <p>
-    My expertise extends to artificial intelligence and machine learning, where I’ve developed algorithms for low-light image enhancement, particularly for lunar PSR (Permanently Shadowed Region) analysis. This experience honed my skills in Python, OpenCV, and data analysis, while fueling my passion for space technology and research.
-  </p>
-  <p>
-    I thrive on solving challenges, often debugging and learning independently using resources like Google and ChatGPT. Despite setbacks, I believe persistence is key, and each project pushes me to grow as a developer. My core skill set includes React, Node.js, Python, MongoDB, and MySQL, complemented by AI tools and frameworks like TensorFlow and Scikit-learn.
-  </p>
-  <p>
-    Currently, I’m seeking opportunities with tech-focused companies where I can contribute to innovative projects in AI, web development, and robotics. My goal is to craft solutions that not only meet clients' needs but also drive technological progress in meaningful ways.
-  </p>
-</div>
+            <p>
+              I'm Vikash Kumar Kharwar, a passionate developer and AI enthusiast from India. My journey into the world of technology began with a curiosity for problem-solving and has since evolved into a deep interest in software development, machine learning, and robotics. I’m currently pursuing a B.Tech in Computer Science and Engineering at NIT Mizoram.
+            </p>
+            <p>
+              Over the years, I’ve explored and mastered a range of technologies. Starting with basic web development using HTML and CSS, I progressed to full-stack development, leveraging the MERN stack to build impactful applications. My portfolio includes projects like a Student Result Management System, full-stack eCommerce platforms, and AI-driven image enhancement tools.
+            </p>
+            <p>
+              My expertise extends to artificial intelligence and machine learning, where I’ve developed algorithms for low-light image enhancement, particularly for lunar PSR (Permanently Shadowed Region) analysis. This experience honed my skills in Python, OpenCV, and data analysis, while fueling my passion for space technology and research.
+            </p>
+            <p>
+              I thrive on solving challenges, often debugging and learning independently using resources like Google and ChatGPT. Despite setbacks, I believe persistence is key, and each project pushes me to grow as a developer. My core skill set includes React, Node.js, Python, MongoDB, and MySQL, complemented by AI tools and frameworks like TensorFlow and Scikit-learn.
+            </p>
+            <p>
+              Currently, I’m seeking opportunities with tech-focused companies where I can contribute to innovative projects in AI, web development, and robotics. My goal is to craft solutions that not only meet clients' needs but also drive technological progress in meaningful ways.
+            </p>
+          </div>
 
         </div>
         <div className="lg:pl-20">
           <ul role="list">
             <SocialLink
-              href="https://www.linkedin.com/in/imuhammadessa/"
+              href="https://www.linkedin.com/in/vikash-kumar-kharwar-142157265/"
               icon={LinkedInIcon}
             >
               Follow on LinkedIn
             </SocialLink>
             <SocialLink
-              href="https://github.com/imuhammadessa"
+              href="https://github.com/VIKASH1596KUMARKHARWAR"
               icon={GitHubIcon}
               className="mt-4"
             >
               Follow on GitHub
             </SocialLink>
             <SocialLink
-              href="https://twitter.com/imuhammadessa"
+              href="https://x.com/VikashK60383009"
               icon={XIcon}
               className="mt-4"
             >
               Follow on X (Twitter)
             </SocialLink>
             <SocialLink
-              href="mailto:imuhammadessa@gmail.com"
+              href="mailto: vikash21596.nitmz@gmail.com"
               icon={MailIcon}
               className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
             >
-              imuhammadessa@gmail.com
+              vikash21596.nitmz@gmail.com
             </SocialLink>
           </ul>
         </div>

@@ -2,71 +2,76 @@ import Image from 'next/image'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import SadatTransport from '@/images/logos/sadattransport.svg'
+import zapier from '@/images/logos/zapier.png'
 import SmartEnergy from '@/images/logos/smartenergy.svg'
+import exc from '@/images/logos/exc.jpeg'
+import py from '@/images/logos/py.png'
 import HouseToPic from '@/images/logos/housetopic.svg'
 import AudioAesthetics from '@/images/logos/audioAesthetics.svg'
 import SaviCandle from '@/images/logos/savicandle.svg'
+import e from '@/images/logos/image.png'
+
 import EVC from '@/images/logos/evc.svg'
 
 const projects = [
   {
-    name: 'SadatTransport',
+    name: 'Zapier-Lite',
     description:
-      'Crane and Bus Rental Services in Abu Dhabi, UAE, offer dependable mobile crane and bus rental solutions, ensuring precision, safety, and efficiency for all clients lifting needs.',
+      "Zapier-Lite is a simplified automation platform inspired by Zapier. It focuses on ensuring atomicity in workflows using a transactional outbox pattern. The platform supports webhooks, email actions, and Solana-based bounty payouts, powered by Kafka for a robust event-driven architecture.",
     link: {
-      href: 'https://sadattransport.com/',
-      label: 'sadattransport.com',
+      href: 'https://github.com/VIKASH1596KUMARKHARWAR/Zapier-Lite',
+      label: 'zapier-lite-github',
     },
-    logo: SadatTransport,
+    logo: zapier,
   },
   {
-    name: 'SmartEnergy',
+    name: 'CryptoTradeX ',
     description:
-      'Horizon Energy Solution is leading the way in smart, innovative, and sustainable solar solutions with advanced solar technology. We provide efficient, cost-effective, and sustainable power.',
+      'This project implements a high-performance cryptocurrency exchange system focusing on scalability, concurrency, and real-time data updates. The architecture leverages modern technologies like Redis, TimescaleDB, and WebSockets to deliver efficient trading capabilities',
     link: {
-      href: 'https://horizonenergysolution.com/',
-      label: 'horizonenergysolution.com',
+      href: 'https://github.com/VIKASH1596KUMARKHARWAR/CryptoTradeX',
+      label: 'CryptoTradeX-github',
     },
-    logo: SmartEnergy,
+    logo: exc,
   },
   {
-    name: 'HouseTopic',
+    name: 'paytm-payment-gateway',
     description:
-      'Housetopic is a collection of luxury properties that epitomize elegance and sophistication. Each home is crafted with exceptional detail, offering unparalleled comfort and style.',
+      'Developed a comprehensive digital payment platform that facilitates secure and seamless financial transactions for both users and merchants. The application supports features like user authentication, bank transactions, and merchant-specific operations, making it a versatile tool for financial managemen',
     link: { href: 'https://housetopic.com.au/', label: 'housetopic.com.au' },
-    logo: HouseToPic,
+    logo: py,
   },
   {
-    name: 'AudioAesthetics',
+    name: 'Student-result-management ',
     description:
-      'Audio Aesthetics is dedicated to designing sound and composing music that ignite engagement, elevate performance, and foster connections between people and organizations.',
-    link: {
-      href: 'https://audioaesthetics.co.uk/',
-      label: 'audioaesthetics.co.uk',
+'Developed a secure platform for managing student records, academic reports, attendance, and performance analysis, enhancing data accuracy, communication, and efficiency for faculty and administrators through an online interface.'
+,    link: {
+      href: 'https://github.com/VIKASH1596KUMARKHARWAR/Student-result-management',
+      label: 'srms-github',
     },
     logo: AudioAesthetics,
   },
   {
-    name: 'SaviCandleSelections',
+    name: 'Ecommerce - Frontend',
     description:
-      'Savi Candle offers eco-friendly, non-toxic candles crafted from natural ingredients, promoting mindful living and a calming, sustainable ambiance.',
+      'Developed a dynamic e-commerce website frontend using HTML, CSS, JavaScript, and React.js',
     link: {
-      href: 'https://savicandleselections.com/',
-      label: 'savicandleselections.com',
+      href: 'https://easy-buy-g.netlify.app/',
+      label: 'easy-buy-g.netlify.app',
     },
-    logo: SaviCandle,
+    logo: e,
   },
   {
-    name: 'EmpoweredVoicesCollective',
+    name: 'GitFinder',
     description:
-      'Empowered Voices Collective, dedicated to bringing advocacy and empowerment to mental health through community support, resources, and raising awareness about mental wellness.',
+      'app with simple-ui that help you to find the github account of any person.',
     link: {
-      href: 'https://empoweredvoicescollective.com/',
-      label: 'empoweredvoicescollective.com',
+      href: 'https://git-finder1103.netlify.app/',
+      label: 'easy-buy-g.netlify.app',
     },
-    logo: EVC,
+
   },
+  
 ]
 
 function LinkIcon(props) {
@@ -89,7 +94,7 @@ export default function Projects() {
   return (
     <SimpleLayout
       title="Apps I've created in an effort to make my mark on the universe."
-      intro="I’ve worked on numerous front-end web apps over the years, but these are the ones I'm most proud of. Take a look at the designs, and feel free to email me with any suggestions on how I can improve."
+      intro="I’ve worked on numerous  web apps over the years, but these are the ones I'm most proud of. Take a look at the designs, and feel free to email me with any suggestions on how I can improve."
     >
       <ul
         role="list"
