@@ -39,7 +39,7 @@ const projects = [
     name: 'paytm-payment-gateway',
     description:
       'Developed a comprehensive digital payment platform that facilitates secure and seamless financial transactions for both users and merchants. The application supports features like user authentication, bank transactions, and merchant-specific operations, making it a versatile tool for financial managemen',
-    link: { href: 'https://housetopic.com.au/', label: 'housetopic.com.au' },
+    link: { href: 'https://github.com/VIKASH1596KUMARKHARWAR/paytm-payment-gateway', label: 'paytm-payment-gateway-gtihub' },
     logo: py,
   },
   {
